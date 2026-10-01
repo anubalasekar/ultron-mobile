@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "ULTRON",
+    "slug": "ultron-mobile",
+    "version": "2.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0e27"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0e27"
+      },
+      "package": "com.ultron.voiceapp",
+      "permissions": ["RECORD_AUDIO", "INTERNET"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
